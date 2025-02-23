@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-if (IsPerfectSquare(160000) == false) throw new Exception("Ожидалось что будет false");
-if (IsPerfectSquare(160001)) throw new Exception("Ожидалось что будет true");
+if (IsPerfectSquare(160000) == false) throw new Exception("Ожидалось что будет true");
+if (IsPerfectSquare(160001)) throw new Exception("Ожидалось что будет false");
 return;
 
 // реализация через сдвиги байтов
